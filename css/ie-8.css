@@ -1,0 +1,7 @@
+/*Special Code  For Intrenet Explorer ---->  by : Hidayt*/
+
+/*remove transparancy from sub menu background*/
+nav ul li ul{background:#fff !important;}
+
+/*Removed background of circle image - on hover*/
+.ih-item.circle.effect10 .info{background:none !important} 

@@ -1,0 +1,231 @@
+@charset "utf-8";
+#sitemap li span{display:none}
+.nbs-flexisel-item {
+  cursor: pointer;
+  float: left;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.nbs-flexisel-inner {
+  margin: 0 auto;
+  overflow: hidden;
+}
+.our-strength .nbs-flexisel-container {
+  position: relative;
+}
+
+.our-strength .nbs-flexisel-container, .our-strength .nbs-flexisel-inner {
+  height: 100px;
+}
+
+.nbs-flexisel-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 99999px;
+}
+
+.health-packages-online .container{padding:0;}
+
+
+
+
+@media screen and (min-width:1920px){
+.carousel { height: 591px;}	
+.pull-right-rw{ width: 95%;}
+.footer-top .footer-box {width: 57%;}
+.footer-box-row{width: 43%;}
+}
+
+@media screen and (max-width:1100px){
+#nav{display:block; width:auto;}
+#nav li a {padding: 13px 19px;}
+.our-service-row ul li{ width: 23%; min-height:270px;}
+.cust-no-row {width: 97%;}
+.pull-right-rw{width: 80%;}
+.abt-tab { width: 58%;}
+#hm-certification a { width: 23%;}
+.care-with-convenience ul li{width:auto}
+.services-bottom-section ul li{width:32%;}
+.footer-box-lf {width: 96%;}
+.upcoming-event-row {width: 40%;}
+.footer-box-new {width: 95%;}
+.hm-collection-row .sky-form .home-collection-section-01 { width: 294px;}
+.hm-collection-row .home-collection-section-02 { width: 192px;}
+.menubtn{  height:37px;}
+.pri-lft h1{font-size: 18px;}
+.pri-rit label{font-size: 19px;}
+.pri-value > h2{	font-size: 16px;}
+.pri-value strong{font-size: 20px;}
+.col-md-9 b{font-weight:normal}
+}
+
+@media screen and (max-width:1000px)
+{
+nav.navigation, .sf-js-enabled{background:none; box-shadow:none;width:auto; float:right}
+nav {top:0px;}
+#nav{display:none; position:absolute; top:37px; right:0px;width:250px; z-index:99999;}
+#nav li.nav-home-icon a{color:#fff;}
+nav ul a{color:#fff;}
+nav ul li a:hover{background:none}
+nav ul ul, nav ul li{  background: rgba(200, 16, 23, 0.92);}
+#nav li:last-child{background: rgba(200, 16, 23, 0.92);}
+nav ul li:last-child:hover{background:#d9251c}
+#nav li:last-child:hover{background:#13a2ac}
+#nav li ul li:last-child{background:#fff;}
+.menubtn {
+background: #da251c url("../images/icon-responsive-menu1.png") no-repeat scroll center center;}
+.col-md-5-row {width: auto;}
+.cust-no-row {width: auto; margin-left:10px;}
+.pull-right-rw { margin-right:41px;padding-right: 11px; width: auto;}
+.applePie .container{padding:0;}
+.ancbvad ul li{margin-bottom:10px;}
+.notic-board{width:40%}
+.abt-tab-details{ height: 303px;}
+.care-with-convenience ul li {margin: 14px 0;width: 32%;}
+.services-bottom-section ul li{width:30%;}
+.footer-box-lf .event {border:none; height: auto;width: 50%;}
+.convi-row{font-size:15px}
+.rslides_container a.centered-btns_nav{display:none}
+.footer-box-lf .hd-all{font-size:23px;}
+.hd-all{font-size:23px;}
+.footer-bottom .footer-box.fl {float: none;text-align: center;}
+.fr.footer-connect {float: none;margin: 12px auto 0;text-align: center;}
+nav ul li ul li:hover a{color:#fff}
+ul.dmui-simple-ul{display:none}
+}
+
+@media screen and (max-width:950px)
+{
+.col-md-9 { float: none;min-height: 0;width: auto;}
+.col-md-3 {float: none;margin: 22px auto;text-align: center;width: 51%;}
+.hm-collection-row .sky-form .home-collection-section-01.hm-last-row {
+ margin-bottom: 10px;}
+.right-menu ul {text-align: left;}
+.custom-profile-page .investor-page{width:auto;}
+}
+
+@media screen and (max-width:800px)
+{
+.top-sec-top-frt{height:auto;}
+.col-md-5-row{float:none; text-align:center}
+.cust-no-row {float: none;margin: 0 auto;text-align: center;}
+.fl.cust-no { float: none; margin: 0 auto;}
+.pull-right-rw.fr {text-align:center; clear: both;float: none;margin: 0 auto;}
+.pull-right-rw > .fl{float:none}
+.top-row-01{float:none}
+.top-row-01,.top-row-02{ display: inline-block; float: none;}
+.cust-no p,.cust-no strong{ display: inline-block; float: none;}
+.hd-top-rit span{ font-size: 13px;}
+.hd-top-rit strong{font-size: 15px;}
+.pull-right-rw:before{display:none}
+.pull-right-rw{display:inline-block;}
+.our-service-row ul li {width: 40%; margin-bottom:15px;}
+.services-bottom-section ul li {width: 40%; margin-bottom:15px;}
+
+.abt-tab { width: auto;}
+.abt-tab-details{height: auto; margin-bottom:10px;}
+.notic-board { clear: both;float: none;width: auto;}
+.notice-board li iframe {height:310px;width:460px;}
+
+
+.notic-board .bx-default-pager {text-align: left;left:10px;}
+.footer-top .footer-box {width: 100%;float:none}
+.footer-box-row{width:auto; height:auto;float:none; overflow:hidden}
+.newsletter input{ width: 35%;}
+.newsletter input[type="button"]{float:none}
+.logo{z-index: 1;position: relative;}
+.top-row-01{border:none}
+
+.col-md-3 {float: none;margin: 22px auto;text-align: center;width: 51%;}
+.right-menu ul{text-align:left}
+.page-title-all span, .page-title-all strong{ font-size:30px;}
+.hr-address{width:auto}
+.right-menu{background:none; border:none}
+.hm-collection-row .sky-form .home-collection-section-01 {width:49%;}
+.inner-mobile-data{width:90%}
+.mobil-app-form {width:52%;}
+.fl.mobile-img {width: 290px}
+.mobil-app-form label, input {margin-bottom: 19px;}
+.mobil-app-form p {font-size: 12px;line-height: 19px;margin-bottom:30px;padding-top: 21px;}
+#messageforapp{top: 84px;}
+.mobil-app-form input{ width: 50%;}
+.logo {float: none;margin: 10px auto; text-align: center;}
+
+}
+
+
+@media screen and (max-width:700px){
+.hd-top-rit {clear: both;float: none;}
+.hd-top-rit > .fl{float:none; display:inline-block;}
+.hd-top-rit{text-align:center; padding-bottom:10px;}
+.logo{float:none; margin:10px auto; text-align:center; }
+.care-with-convenience ul li,.services-bottom-section ul li{width:50%;}
+.footer-bottom{background:#e4e3e2}
+.hm-collection-row .sky-form .home-collection-section-01 {width:100%;}
+.hm-collection-row .home-collection-section-02 {width: 100%;}
+.price-box-wrapper .box-col-2 .prices-wrap {clear: both;float: none; width: auto;}
+.mobile-app-rit{top: 256px;}
+.mobile-app-rit{width:auto}
+.custom-profile-page .investor-page input, textarea, select{width:95%;}
+.download-app-top::before{display:none}
+.health-row.fl.download-app-top {margin: 10px auto 0;padding: 0;}
+
+}
+
+@media screen and (max-width:600px){
+.our-service-row ul li{width:50%}
+.fourbox {bottom:-50px; }
+.pull-right-rw{height:auto}
+.rslides_container {padding-bottom: 52px;}
+.hd-all:before,.hd-all:after{display:none}
+.footer-box-lf .event {width: auto;}
+.upcoming-event-row { width: auto; float:none; clear:both}
+.color-footer-01{height:auto}
+.newsletter input {width: 98%;}
+.hd-all {font-size: 19px;}
+.notice-board li iframe {height: 310px;width: 460px;}
+.notice-board li a{display:block}
+.notic-board .bx-default-pager{display:none}
+.footer-box-new {float: none;margin: 0 auto;width: 95%;}
+.footer-box-new-padd {padding: 27px 0;}
+.col-md-3 {width:100%}
+.page-title-all span, .page-title-all strong{ display: block; font-size:15px;}
+.page-title-all { bottom: 50px;}
+.col-md-9 b{font-size:12px;}
+.col-md-9 .ja_content b{font-size:14px;}
+.col-md-9 p{clear:both}
+.certi-pop a { margin: 5px; width: 22%;}
+.flex-viewport ul.slides{text-align:center; }
+.health-packages-online ul li { display: inline-block !important; margin-right:87px !important;}
+.fl.mobile-img {float: none;width: auto;}
+.fl.mobile-img > img {margin: 0 auto;}
+.mobil-app-form {border-top: 1px solid #ddd;float: none;margin: 19px auto 0;width: auto;}
+.scroll-row{height:450px; overflow-x:hidden; overflow-y:scroll;}
+.mobile-app-rit {top: 92px;  width: 124px;}
+}
+
+
+@media screen and (max-width:500px){
+.our-service-row ul li{width:95%}
+.care-with-convenience ul li, .services-bottom-section ul li{width:95%}
+.service-row-img img {width: 100%;}
+.fourbox {bottom:-38px; }
+.abt-hm-list li{padding:7px 21px; font-size:16px;}
+.breadcrumb{display:none}
+.page-title-all {bottom: 23px;}
+.sky-form h1{font-size:15px;}
+.notice-board li iframe {height:auto;width:100%;}
+.custom-profile-page .investor-page .form_box div{width:auto; float:none}
+}
+
+@media screen and (max-width:400px){
+.top-sec-top-frt strong{font-size:12px;}
+.abt-hm-list li{font-size:13px;}
+
+}
+
